@@ -4,7 +4,7 @@ An API that produces docset packages (for https://zealdocs.org & dash.app) from 
 
 You can generate a docset for a library which will be pulled from hex.pm/hexdocs:
 
-`iex> DocsetApi.Builder.build("phoenix", "priv/static/docsets")`
+`iex> DocsetApi.Builder.build("phoenix", "priv/static/docsets/")`
 
 Or you can go further and generate docsets for your own Elixir application + all of its dependencies at once. 
 
